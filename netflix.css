@@ -1,0 +1,138 @@
+body{margin: 0px;
+    padding: 0px;
+    background-image: url(./background\ jag.jpeg);
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    font-family: 'Merriweather Sans', sans-serif;
+    border-bottom: 5px solid grey;
+    }
+    #nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 15%;
+    }
+    #nav #left img{width: 20%;}
+    #nav #right{display: flex; gap: 20px;}
+    
+    #right{
+
+        position: relative;
+    }
+    #nav #right select{ background-color: rgba(58, 58, 58, 0.774);
+    color: white;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 5px;
+    padding-left: 1.5rem;
+    text-align: center;
+    font-size: large;}
+    
+    #right i{
+        color: white;
+        position: absolute;
+        top: 20%;
+        left: 3%;
+
+    }
+    
+    #cont{text-align: center; color: white;margin-top: 140px;}
+    #cont h1{font-weight: 1700;font-size: 52px; margin-top: 0px;font: bold;}
+    #cont h2{font-size:23px ;padding: 0px;
+    margin-top: 10px;font-weight: lighter;}
+    #cont p{font-size: 20px;}
+    #cont input{border: 0.5px solid rgba(126, 126, 126, 0.836); background-color: rgba(61, 61, 61, 0.582);
+        margin: 0px;
+        padding: 0px;
+        width: 432px;
+        height: 55px;}
+    #cont button{  padding: 0px;
+        margin: 0px; 
+        border-radius: 5px;
+         width: 200px;
+        height: 55px;
+    background-color: red;color: white;border: none;font-size: 150%;}
+    #email::placeholder{color: white; font-size: larger;    line-height: 1.5rem;
+        padding: 1.5rem 1rem 0.5rem}
+    #nav #right #sign{background-color: red; color: white; border: none;padding: 0px;
+    margin: 0px;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;}
+    #but:hover{background: rgb(193, 17, 25);}
+    #enjoy{color: white;
+        
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-top: 22rem;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+    #enjoy div{
+        width:45% ;
+    }
+    #enjoy #text h1{font-size: 3.5rem;font-weight: bold;}
+    #enjoy #text p{font-size: 1.5rem;}
+    #enjoy #tv{position: relative;}
+    
+    #enjoy #tv img{
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+    
+    #enjoy #tv video{position: absolute;
+        top: 20%;
+        left: 13%;
+        width: 73%;
+        z-index: 2;
+    }
+    #stranger{color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+    border-top: 4px solid grey;}
+    
+    #stranger #text2 h1{font-size: 3rem;}
+    #stranger #text2 p{font-size: 1.5rem;}
+    #stranger img{width: 100%;}
+    
+    #watch{color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;margin-top: 7rem;
+    align-items: center;justify-content: space-between;
+    border-top:4px solid grey ;
+    padding-top: 3rem;}
+    
+    #watch div{width: 45%;}
+    #watch #text3 h1{ font-size: 3rem; font-weight: bold;}
+    #watch #text3 p{font-size: 1.5rem;}
+    #watch #tv2{position: relative;}
+    #watch #tv2 img{ width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+    #watch #tv2 video{position: absolute;
+        top: 7%;
+        left: 17%;
+        width: 64%;
+        z-index: 1;}
+    
+        #create{display: flex;
+            color: white;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+            justify-content: space-between;
+            border-top:4px solid grey ;
+            margin-top: 4rem ;
+      padding-top: 2rem;  }
+      
